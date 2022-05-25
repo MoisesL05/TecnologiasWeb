@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tecnologías Web - Edison Luzardo - Evaluación</title>
+</head>
+<body style="background-color: black;">
+    
+    <table>
+        <tr>
+            <td colspan="6"><img src="imagenes/logo.png" alt="Tecnologías Web" /></td>
+        </tr>
+        <tr style="background-color: darkgoldenrod; text-align:center;">
+            <td><a href="index.html">Inicio</a></td>
+            <td><a href="backend.html">BackEnd</a></td>
+            <td><a href="frontend.html">FrontEnd</a></td>
+            <td><a href="http.html">Protocolo HTTP</a></td>
+            <td><a href="servidores.html">Servidores Web</a></td>
+            <td><a href="evaluacion.html">Evaluación</a></td>
+        </tr>
+    </table>
+    <form>
+        <h1 style="color:darkgoldenrod;">Evalúa este sitio</h1>
+        <p style="color:white;">Nombre:</p><input type="text" name="nombre" size="50"/><br>
+        <p style="color:white;">Correo Electrónico: </p><input type="text" name="email" size="50"/><br>
+        <p style="color:white;">Fecha: </p><input type="date" name="fecha" size="50"/> <br>
+        <p style="color:white;">¿Que te pareció el sitio? (0 a 10): </p><input type="range" name="opinion" min="0" max="10" value="10" /> <br>
+        <p style="color:white;">¿Nos recomendarías?: </p><input type="radio" name="yesno" value="yes" checked/> Si <input type="radio" name="yesno" value="no" /> No <br><br>
+        <input type="submit" value="Enviar" />
+    </form>
+</body>
+</html>
