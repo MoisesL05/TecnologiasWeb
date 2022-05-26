@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tecnologías Web - Edison Luzardo - Ejercicio Formulario HTML</title>
+</head>
+<body>
+    <img src="imagenes/logo.png" alt="Logo UTPL" width="200">
+    <h1 style="color:darkblue;">Universidad Técnica Particular de Loja</h1>
+    <h2>Tecnologías Web</h2>
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="erroreshtml.html">Ejercicio 1. Errores en el código</a></li>
+            <li><a href="tabla.html">Ejercicio 2. Crear una tabla</a></li>
+            <li><a href="anclas.html">Ejercicio 3. Ejemplo de anclas</a></li>
+            <li><a href="formulario.html">Ejercicio 4. Crear un formulario</a></li>
+            <li><a href="video.html">Ejercicio 5. Insertar un video</a></li>
+        </ul>
+    </nav>
+    <section>
+        <h3>Formulario</h3>
+        <form action="https://www.utpl.edu.ec/" method="get">
+            <p>Título:</p><input type="text">
+            <p>Nombre:</p><input type="text" required autofocus>
+            <p>Email:</p><input type="email" required>
+            <p>Web:</p><input type="url" placeholder="URL de tu página web personal">
+            <p>Fecha de Registro:</p><input type="date">
+            <p>Hora:</p><input type="time">
+            <p>Edad:</p><input type="number" min="18" max="65">
+            <p>Contacto:</p><input type="tel">
+            <p>Color favorito:</p><input type="color"><br><br>
+            <input type="submit" value="Guardar">
+        </form>
+    </section>
+</body>
+</html>
